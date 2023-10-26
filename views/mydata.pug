@@ -1,9 +1,5 @@
-var express = require('express');
-var router = express.Router();
+extends layout
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Arthimalla-Srilakshmi' });
-});
-
-module.exports = router;
+block content
+  h1= Arthimalla Srilakshmi
+  p I Love to Watch Movies #{Arthimalla Srilakshmi}
