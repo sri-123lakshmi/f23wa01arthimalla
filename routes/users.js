@@ -8,8 +8,8 @@ var router = express.Router();
 
 
 router.get('/', function(req, res, next) {
-  var sum = 0;
-  var more = 0;
+  let sum = 0;
+  let more = 0;
   more = more + 1;
   sum += more;
   res.send(`Sum is:` +sum);
